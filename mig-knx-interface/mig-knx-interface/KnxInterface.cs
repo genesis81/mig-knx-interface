@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace MIG.Interfaces.Knx
 {
@@ -29,28 +30,75 @@ namespace MIG.Interfaces.Knx
         public KnxInterface()
         {
             _modules = new List<InterfaceModule>();
-            // manually add some fake modules
-            var module_1 = new InterfaceModule();
-            module_1.Domain = this.GetDomain();
-            module_1.Address = "1.0.0";
-            module_1.ModuleType = ModuleTypes.Light;
-            var module_2 = new InterfaceModule();
-            module_2.Domain = this.GetDomain();
-            module_2.Address = "0.1.4";
-            module_2.ModuleType = ModuleTypes.Temperature;
-            var module_3 = new InterfaceModule();
-            module_3.Domain = this.GetDomain();
-            module_3.Address = "6.0.5";
-            module_3.ModuleType = ModuleTypes.Sensor;
-            var module_4 = new InterfaceModule();
-            module_4.Domain = this.GetDomain();
-            module_4.Address = "1.1.1";
-            module_4.ModuleType = ModuleTypes.Dimmer;
-            // add them to the modules list
-            _modules.Add(module_1);
-            _modules.Add(module_2);
-            _modules.Add(module_3);
-            _modules.Add(module_4);
+            XmlDocument doc = new XmlDocument();
+            doc.Load("groupaddresses.xml");
+
+            var addresses = doc.GetElementsByTagName("GroupAddress");
+
+            foreach(XmlNode item in addresses)
+            {
+                var attributes = item.Attributes;
+                
+                var address = attributes["Address"].Value.ToString();
+                var name = attributes["Name"].Value.ToString();
+                if (attributes["DPTs"] == null) continue;
+                var dpt = attributes["DPTs"].Value.ToString().Split('-');
+                var maintype = int.Parse(dpt[1]);
+                var subtype = int.Parse(dpt[2]);
+
+                var module = new InterfaceModule();
+                module.Domain = this.GetDomain();
+                module.Address = address.ToString().Replace("/",".");
+                module.Description = name;
+
+                switch (maintype)
+                {
+                    case 1:
+                        switch(subtype)
+                        {
+                            case 1:
+                            case 2:
+                            case 3:
+                                module.ModuleType = ModuleTypes.Switch;
+                                break;
+                        }
+
+                        break;
+                    case 2:
+                        module.ModuleType = ModuleTypes.Generic;
+                        break;
+                    case 3:
+                        module.ModuleType = ModuleTypes.Dimmer;
+                        break;
+                    case 4:
+                        module.ModuleType = ModuleTypes.Generic;
+                        break;
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                        module.ModuleType = ModuleTypes.Sensor;
+                        break;
+                    case 9:
+                        switch (subtype)
+                        {
+                            case 1:
+                            case 2:
+                            case 3:
+                                module.ModuleType = ModuleTypes.Temperature;
+                                break;
+                            default:
+                                module.ModuleType = ModuleTypes.Sensor;
+                                break;
+                        }
+                        break;
+                    default:
+                        module.ModuleType = ModuleTypes.Generic;
+                        break;
+                }
+                _modules.Add(module);
+            }
+
         }
 
 

@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="Heizen Lüften Klima" RangeStart="1" RangeEnd="2047">
+    <GroupRange Name="Allgemein" RangeStart="1" RangeEnd="255">
+      <GroupAddress Name="Stellwert Korridor" Address="0/0/1" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Korridor" Address="0/0/2" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Korridor" Address="0/0/3" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Korridor" Address="0/0/4" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Korridor" Address="0/0/5" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Korridor" Address="0/0/6" DPTs="DPST-5-1" />
+      <GroupAddress Name="Status Heizen Ankleide" Address="0/0/20" DPTs="DPST-5-1" />
+      <GroupAddress Name="Stellwert Ankleide" Address="0/0/21" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Ankleide" Address="0/0/22" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Ankleide" Address="0/0/23" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Ankleide" Address="0/0/24" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Ankleide" Address="0/0/25" DPTs="DPST-9-1" />
+    </GroupRange>
+    <GroupRange Name="Wohnung/Kueche" RangeStart="256" RangeEnd="511">
+      <GroupAddress Name="Stellwert Wohnzimmer" Address="0/1/0" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Wohnzimmer" Address="0/1/1" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Wohnzimmer" Address="0/1/2" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Wohnzimmer" Address="0/1/3" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Wohnzimmer" Address="0/1/4" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Wohnzimmer" Address="0/1/5" DPTs="DPST-5-1" />
+      <GroupAddress Name="Stellwert Kueche" Address="0/1/20" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Kueche" Address="0/1/21" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Kueche" Address="0/1/22" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Kueche" Address="0/1/23" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Kueche" Address="0/1/24" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Kueche" Address="0/1/25" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="Zimmer" RangeStart="512" RangeEnd="767">
+      <GroupAddress Name="Stellwert Zimmer 1" Address="0/2/1" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Zimmer 1" Address="0/2/2" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Zimmer 1" Address="0/2/3" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Zimmer 1" Address="0/2/4" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Zimmer 1" Address="0/2/5" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Zimmer 1" Address="0/2/6" DPTs="DPST-5-1" />
+      <GroupAddress Name="Stellwert Zimmer 2" Address="0/2/20" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Zimmer 2" Address="0/2/21" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Zimmer 2" Address="0/2/22" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Zimmer 2" Address="0/2/23" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Zimmer 2" Address="0/2/24" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Zimmer 2" Address="0/2/25" DPTs="DPST-5-1" />
+      <GroupAddress Name="Stellwert Zimmer 3" Address="0/2/40" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Zimmer 3" Address="0/2/41" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Zimmer 3" Address="0/2/42" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Zimmer 3" Address="0/2/43" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Zimmer 3" Address="0/2/44" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Zimmer 3" Address="0/2/45" DPTs="DPST-5-1" />
+      <GroupAddress Name="Stellwert Eltern" Address="0/2/60" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Eltern" Address="0/2/61" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Eltern" Address="0/2/62" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Eltern" Address="0/2/63" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Eltern" Address="0/2/64" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Eltern" Address="0/2/65" DPTs="DPST-5-1" />
+    </GroupRange>
+    <GroupRange Name="Waschen / Bad" RangeStart="768" RangeEnd="1023">
+      <GroupAddress Name="Stellwert Dusche" Address="0/3/0" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Dusche" Address="0/3/1" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Dusche" Address="0/3/2" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Dusche" Address="0/3/3" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Dusche" Address="0/3/4" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Dusche" Address="0/3/5" DPTs="DPST-5-1" />
+      <GroupAddress Name="Stellwert Bad" Address="0/3/20" DPTs="DPST-5-1" />
+      <GroupAddress Name="Ventilstellung Bad" Address="0/3/21" DPTs="DPST-5-1" />
+      <GroupAddress Name="Zwangstellung Bad" Address="0/3/22" DPTs="DPST-1-3" />
+      <GroupAddress Name="Soll Temp Bad" Address="0/3/23" DPTs="DPST-9-1" />
+      <GroupAddress Name="Ist Temp Bad" Address="0/3/24" DPTs="DPST-9-1" />
+      <GroupAddress Name="Status Heizen Bad" Address="0/3/25" DPTs="DPST-5-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Beleuchtung" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="Allgemein" RangeStart="2048" RangeEnd="2303">
+      <GroupAddress Name="Schalten Licht Korridor" Address="1/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Korridor" Address="1/0/1" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Ankleide" Address="1/0/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Ankleide" Address="1/0/11" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Waschkueche" Address="1/0/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Waschkueche" Address="1/0/21" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Terrasse West" Address="1/0/30" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Terrasse West" Address="1/0/31" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Terrasse Ost" Address="1/0/40" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Terrasse Ost" Address="1/0/41" DPTs="DPST-1-11" />
+    </GroupRange>
+    <GroupRange Name="Wohnung/Kueche" RangeStart="2304" RangeEnd="2559">
+      <GroupAddress Name="Schalten Licht Wohnzimmer" Address="1/1/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Dimmen Licht Wohnzimmer" Address="1/1/1" DPTs="DPST-3-7" />
+      <GroupAddress Name="Schalten Steckdose Wohnen" Address="1/1/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Steckdose Wohnen" Address="1/1/11" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Küche" Address="1/1/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Küche" Address="1/1/21" DPTs="DPST-1-11" />
+      <GroupAddress Name="Beleuchtung Kueche" Address="1/1/30" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Beleuchtung Kueche" Address="1/1/31" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Essen" Address="1/1/40" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Essen" Address="1/1/41" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Steckdose Essen" Address="1/1/50" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Steckdose Essen" Address="1/1/51" DPTs="DPST-1-11" />
+    </GroupRange>
+    <GroupRange Name="Zimmer" RangeStart="2560" RangeEnd="2815">
+      <GroupAddress Name="Schalten Licht Zimmer 1" Address="1/2/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Zimmer 1" Address="1/2/1" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Zimmer 2" Address="1/2/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Zimmer 2" Address="1/2/11" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Zimmer 3" Address="1/2/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Zimmer 3" Address="1/2/21" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Eltern" Address="1/2/30" DPTs="DPST-1-1" />
+      <GroupAddress Name="Dimmen Licht Eltern" Address="1/2/31" DPTs="DPST-3-7" />
+    </GroupRange>
+    <GroupRange Name="Waschen / Bad" RangeStart="2816" RangeEnd="3071">
+      <GroupAddress Name="Schalten Licht Dusche" Address="1/3/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Dusche" Address="1/3/1" DPTs="DPST-1-11" />
+      <GroupAddress Name="Schalten Licht Bad" Address="1/3/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Licht Bad" Address="1/3/11" DPTs="DPST-1-11" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Jalousinen" RangeStart="4096" RangeEnd="6143">
+    <GroupRange Name="Allgemein" RangeStart="4096" RangeEnd="4351">
+      <GroupAddress Name="Jalousinen Auf/Ab Waschkueche" Address="2/0/0" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Waschkueche" Address="2/0/1" DPTs="DPST-1-9" />
+    </GroupRange>
+    <GroupRange Name="Wohnung/Kueche" RangeStart="4352" RangeEnd="4607">
+      <GroupAddress Name="Jalousinen Auf/Ab Wohung West" Address="2/1/0" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Wohung West" Address="2/1/1" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Wohung Nord links" Address="2/1/10" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Wohung Nord links" Address="2/1/11" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Wohung Nord rechts" Address="2/1/20" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Wohung Nord rechts" Address="2/1/21" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Markise" Address="2/1/30" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Markise" Address="2/1/31" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Kueche Nord" Address="2/1/40" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Kueche Nord" Address="2/1/41" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Kueche Ost" Address="2/1/50" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Kueche Ost" Address="2/1/51" DPTs="DPST-1-9" />
+    </GroupRange>
+    <GroupRange Name="Zimmer" RangeStart="4608" RangeEnd="4863">
+      <GroupAddress Name="Jalousinen Auf/Ab Zimmer 1" Address="2/2/0" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Zimmer 1" Address="2/2/1" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Zimmer 2" Address="2/2/10" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Zimmer 2" Address="2/2/11" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Zimmer 3" Address="2/2/20" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Zimmer 3" Address="2/2/21" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Eltern West" Address="2/2/30" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Eltern West" Address="2/2/31" DPTs="DPST-1-9" />
+      <GroupAddress Name="Jalousinen Auf/Ab Eltern Nord" Address="2/2/40" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Eltern Nord" Address="2/2/41" DPTs="DPST-1-9" />
+    </GroupRange>
+    <GroupRange Name="Waschen / Bad" RangeStart="4864" RangeEnd="5119">
+      <GroupAddress Name="Jalousinen Auf/Ab Dusche" Address="2/3/0" DPTs="DPST-1-8" />
+      <GroupAddress Name="Lamellen Auf/Zu Dusche" Address="2/3/1" DPTs="DPST-1-9" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Alarmfunktionen" RangeStart="6144" RangeEnd="8191">
+    <GroupRange Name="Allgemein" RangeStart="6144" RangeEnd="6399">
+      <GroupAddress Name="Status Fenster Waschkueche" Address="3/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Haustuere" Address="3/0/10" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Wohnung/Kueche" RangeStart="6400" RangeEnd="6655">
+      <GroupAddress Name="Status Fenster Wohnzimmer West" Address="3/1/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Fenster Wohnzimmer Nord" Address="3/1/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Fenster Kueche Nord" Address="3/1/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Fenster Kueche Ost" Address="3/1/30" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Zimmer" RangeStart="6656" RangeEnd="6911">
+      <GroupAddress Name="Status Fenster Zimmer 1" Address="3/2/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Fenster Zimmer 2" Address="3/2/10" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Fenster Zimmer 3" Address="3/2/20" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Fenster Eltern West" Address="3/2/30" DPTs="DPST-1-1" />
+      <GroupAddress Name="Status Fenster Eltern Nord" Address="3/2/40" DPTs="DPST-1-1" />
+    </GroupRange>
+    <GroupRange Name="Waschen / Bad" RangeStart="6912" RangeEnd="7167">
+      <GroupAddress Name="Status Fenster Dusche" Address="3/3/0" DPTs="DPST-1-1" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Szenen" RangeStart="8192" RangeEnd="10239">
+    <GroupRange Name="Allgemein" RangeStart="8192" RangeEnd="8447">
+      <GroupAddress Name="Alles aus/Schlafzimmer" Address="4/0/0" DPTs="DPST-17-1" />
+    </GroupRange>
+    <GroupRange Name="Wohnung/Kueche" RangeStart="8448" RangeEnd="8703" />
+    <GroupRange Name="Zimmer" RangeStart="8704" RangeEnd="8959" />
+    <GroupRange Name="Waschen / Bad" RangeStart="8960" RangeEnd="9215" />
+  </GroupRange>
+  <GroupRange Name="Zentralfunktionen" RangeStart="10240" RangeEnd="12287">
+    <GroupRange Name="Allgemein" RangeStart="10240" RangeEnd="10495" />
+    <GroupRange Name="Wohnung/Kueche" RangeStart="10496" RangeEnd="10751" />
+    <GroupRange Name="Zimmer" RangeStart="10752" RangeEnd="11007" />
+    <GroupRange Name="Waschen / Bad" RangeStart="11008" RangeEnd="11263" />
+    <GroupRange Name="Jalousinen" RangeStart="11264" RangeEnd="11519">
+      <GroupAddress Name="Jalousinen Nord" Address="5/4/0" DPTs="DPST-1-8" />
+      <GroupAddress Name="Jalousinen Ost" Address="5/4/1" DPTs="DPST-1-8" />
+      <GroupAddress Name="Jalousinen Sued" Address="5/4/2" DPTs="DPST-1-8" />
+      <GroupAddress Name="Jalousinen West" Address="5/4/3" DPTs="DPST-1-8" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="Systemdaten Wetter Datum Uhrzeit" RangeStart="12288" RangeEnd="14335" Unfiltered="true">
+    <GroupRange Name="Wetter" RangeStart="12288" RangeEnd="12543" Unfiltered="true">
+      <GroupAddress Name="Aussentemperatur" Address="6/0/0" Unfiltered="true" DPTs="DPST-9-1" />
+      <GroupAddress Name="Helligkeit" Address="6/0/2" Unfiltered="true" DPTs="DPST-9-4" />
+      <GroupAddress Name="Windstaerke" Address="6/0/5" Unfiltered="true" DPTs="DPST-9-5" />
+      <GroupAddress Name="Windalarm" Address="6/0/10" Unfiltered="true" DPTs="DPST-1-5" />
+      <GroupAddress Name="Markisen-Alarm" Address="6/0/11" Unfiltered="true" DPTs="DPST-1-5" />
+      <GroupAddress Name="Regenalarm" Address="6/0/20" Unfiltered="true" DPTs="DPST-1-5" />
+      <GroupAddress Name="Frostalarm" Address="6/0/30" Unfiltered="true" DPTs="DPST-1-5" />
+    </GroupRange>
+    <GroupRange Name="Datum/Uhrzeit" RangeStart="12544" RangeEnd="12799" Unfiltered="true">
+      <GroupAddress Name="Datum" Address="6/1/1" Unfiltered="true" DPTs="DPST-11-1" />
+      <GroupAddress Name="Uhrzeit" Address="6/1/2" Unfiltered="true" DPTs="DPST-10-1" />
+    </GroupRange>
+    <GroupRange Name="Sonnenschein Daemmerung" RangeStart="12800" RangeEnd="13055" Unfiltered="true">
+      <GroupAddress Name="Sonnenschein" Address="6/2/0" Unfiltered="true" DPTs="DPST-1-11" />
+      <GroupAddress Name="Daemmerung" Address="6/2/10" Unfiltered="true" DPTs="DPST-1-11" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="DMX Ansteuerung" RangeStart="14336" RangeEnd="16383" Unfiltered="true">
+    <GroupRange Name="DMX Gerät 0" RangeStart="14336" RangeEnd="14591" Unfiltered="true">
+      <GroupAddress Name="Kanal 1 Setzen" Address="7/0/0" Unfiltered="true" DPTs="DPST-5-1" />
+      <GroupAddress Name="Kanal 2 Setzen" Address="7/0/1" Unfiltered="true" DPTs="DPST-5-1" />
+      <GroupAddress Name="Kanal 3 Setzen" Address="7/0/2" Unfiltered="true" DPTs="DPST-5-1" />
+      <GroupAddress Name="Kanal 4 Setzen" Address="7/0/3" Unfiltered="true" DPTs="DPST-5-1" />
+      <GroupAddress Name="Kanal 5 Setzen" Address="7/0/4" Unfiltered="true" DPTs="DPST-5-1" />
+      <GroupAddress Name="Kanal 6 Setzen" Address="7/0/5" Unfiltered="true" DPTs="DPST-5-1" />
+      <GroupAddress Name="Kanal 1 Schalten" Address="7/0/32" Unfiltered="true" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kanal 2 Schalten" Address="7/0/33" Unfiltered="true" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kanal 3 Schalten" Address="7/0/34" Unfiltered="true" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kanal 4 Schalten" Address="7/0/35" Unfiltered="true" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kanal 5 Schalten" Address="7/0/36" Unfiltered="true" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kanal 6 Schalten" Address="7/0/37" Unfiltered="true" DPTs="DPST-1-1" />
+      <GroupAddress Name="Kanal 1 Dimmen" Address="7/0/64" Unfiltered="true" DPTs="DPST-3-7" />
+      <GroupAddress Name="Kanal 2 Dimmen" Address="7/0/65" Unfiltered="true" DPTs="DPST-3-7" />
+      <GroupAddress Name="Kanal 3 Dimmen" Address="7/0/66" Unfiltered="true" DPTs="DPST-3-7" />
+      <GroupAddress Name="Kanal 4 Dimmen" Address="7/0/67" Unfiltered="true" DPTs="DPST-3-7" />
+      <GroupAddress Name="Kanal 5 Dimmen" Address="7/0/68" Unfiltered="true" DPTs="DPST-3-7" />
+      <GroupAddress Name="Kanal 6 Dimmen" Address="7/0/69" Unfiltered="true" DPTs="DPST-3-7" />
+      <GroupAddress Name="Szene 1 setzen " Address="7/0/96" Unfiltered="true" />
+      <GroupAddress Name="Szene 2 setzen " Address="7/0/97" Unfiltered="true" />
+      <GroupAddress Name="Szene 3 setzen " Address="7/0/98" Unfiltered="true" />
+      <GroupAddress Name="Szene 4 setzen " Address="7/0/99" Unfiltered="true" />
+      <GroupAddress Name="Szene 5 setzen " Address="7/0/100" Unfiltered="true" />
+      <GroupAddress Name="Szene 6 setzen " Address="7/0/101" Unfiltered="true" />
+      <GroupAddress Name="Szene 7 setzen " Address="7/0/102" Unfiltered="true" />
+      <GroupAddress Name="Szene 8 setzen " Address="7/0/103" Unfiltered="true" />
+      <GroupAddress Name="Szene 9 setzen " Address="7/0/104" Unfiltered="true" />
+      <GroupAddress Name="Szene 10 setzen " Address="7/0/105" Unfiltered="true" />
+      <GroupAddress Name="Szene 11 setzen " Address="7/0/106" Unfiltered="true" />
+      <GroupAddress Name="Szene 12 setzen " Address="7/0/107" Unfiltered="true" />
+      <GroupAddress Name="Szene 13 setzen " Address="7/0/108" Unfiltered="true" />
+      <GroupAddress Name="Szene 14 setzen " Address="7/0/109" Unfiltered="true" />
+      <GroupAddress Name="Szene 15 setzen " Address="7/0/110" Unfiltered="true" />
+      <GroupAddress Name="Szene 16 setzen " Address="7/0/111" Unfiltered="true" />
+      <GroupAddress Name="Szene 17 setzen " Address="7/0/112" Unfiltered="true" />
+      <GroupAddress Name="Szene 18 setzen " Address="7/0/113" Unfiltered="true" />
+      <GroupAddress Name="Szene 19 setzen " Address="7/0/114" Unfiltered="true" />
+      <GroupAddress Name="Szene 20 setzen " Address="7/0/115" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/116" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/117" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/118" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/119" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/120" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/121" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/122" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/123" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/124" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/125" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/126" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/127" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/128" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/129" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/130" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/131" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/132" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/133" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/134" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/135" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/136" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/137" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/138" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/139" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/140" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/141" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/142" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/143" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/144" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/145" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/146" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/147" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/148" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/149" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/150" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/151" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/152" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/153" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/154" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/155" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/156" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/157" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/158" Unfiltered="true" />
+      <GroupAddress Name="Szene setzen " Address="7/0/159" Unfiltered="true" />
+      <GroupAddress Name="Szene 1 speichern" Address="7/0/160" Unfiltered="true" />
+      <GroupAddress Name="Szene 2 speichern" Address="7/0/161" Unfiltered="true" />
+      <GroupAddress Name="Szene 3 speichern" Address="7/0/162" Unfiltered="true" />
+      <GroupAddress Name="Szene 4 speichern" Address="7/0/163" Unfiltered="true" />
+      <GroupAddress Name="Szene 5 speichern" Address="7/0/164" Unfiltered="true" />
+      <GroupAddress Name="Szene 6 speichern" Address="7/0/165" Unfiltered="true" />
+      <GroupAddress Name="Szene 7 speichern" Address="7/0/166" Unfiltered="true" />
+      <GroupAddress Name="Szene 8 speichern" Address="7/0/167" Unfiltered="true" />
+      <GroupAddress Name="Szene 9 speichern" Address="7/0/168" Unfiltered="true" />
+      <GroupAddress Name="Szene 10 speichern" Address="7/0/169" Unfiltered="true" />
+      <GroupAddress Name="Szene 11 speichern" Address="7/0/170" Unfiltered="true" />
+      <GroupAddress Name="Szene 12 speichern" Address="7/0/171" Unfiltered="true" />
+      <GroupAddress Name="Szene 13 speichern" Address="7/0/172" Unfiltered="true" />
+      <GroupAddress Name="Szene 14 speichern" Address="7/0/173" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/174" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/175" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/176" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/177" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/178" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/179" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/180" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/181" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/182" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/183" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/184" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/185" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/186" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/187" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/188" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/189" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/190" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/191" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/192" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/193" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/194" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/195" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/196" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/197" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/198" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/199" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/200" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/201" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/202" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/203" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/204" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/205" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/206" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/207" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/208" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/209" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/210" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/211" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/212" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/213" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/214" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/215" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/216" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/217" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/218" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/219" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/220" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/221" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/222" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/223" Unfiltered="true" />
+      <GroupAddress Name="Zentral schalten" Address="7/0/224" Unfiltered="true" />
+      <GroupAddress Name="Szene abrufen" Address="7/0/225" Unfiltered="true" />
+      <GroupAddress Name="Szene speichern" Address="7/0/226" Unfiltered="true" />
+      <GroupAddress Name="Sequenz abrufen" Address="7/0/227" Unfiltered="true" />
+      <GroupAddress Name="Wiederholrate parametrieren" Address="7/0/228" Unfiltered="true" />
+      <GroupAddress Name="Dimkurve abwärts" Address="7/0/229" Unfiltered="true" />
+      <GroupAddress Name="Dimmkurve aufwärts" Address="7/0/230" Unfiltered="true" />
+      <GroupAddress Name="Dimmautomatik" Address="7/0/231" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/232" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/233" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/234" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/235" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/236" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/237" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/238" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/239" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/240" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/241" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/242" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/243" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/244" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/245" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/246" Unfiltered="true" />
+      <GroupAddress Name="Relatives Dimmen Szene" Address="7/0/247" Unfiltered="true" />
+    </GroupRange>
+  </GroupRange>
+</GroupAddress-Export>

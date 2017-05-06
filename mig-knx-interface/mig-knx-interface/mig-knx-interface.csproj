@@ -69,6 +69,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="configuration.xml" />
+    <Content Include="groupaddresses.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Logo.png" />
     <Content Include="README.txt" />
   </ItemGroup>
